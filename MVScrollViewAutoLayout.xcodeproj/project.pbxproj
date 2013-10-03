@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65921F9217FC6F3700F63767 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65921F9117FC6F3700F63767 /* Foundation.framework */; };
+		65921F9417FC6F3700F63767 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65921F9317FC6F3700F63767 /* CoreGraphics.framework */; };
+		65921F9617FC6F3700F63767 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65921F9517FC6F3700F63767 /* UIKit.framework */; };
+		65921F9C17FC6F3700F63767 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65921F9A17FC6F3700F63767 /* InfoPlist.strings */; };
+		65921F9E17FC6F3700F63767 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65921F9D17FC6F3700F63767 /* main.m */; };
+		65921FA217FC6F3700F63767 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65921FA117FC6F3700F63767 /* AppDelegate.m */; };
+		65921FA517FC6F3800F63767 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65921FA317FC6F3800F63767 /* Main_iPhone.storyboard */; };
+		65921FA817FC6F3800F63767 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65921FA617FC6F3800F63767 /* Main_iPad.storyboard */; };
+		65921FAB17FC6F3800F63767 /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65921FAA17FC6F3800F63767 /* AutoLayoutViewController.m */; };
+		65921FAD17FC6F3800F63767 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65921FAC17FC6F3800F63767 /* Images.xcassets */; };
+		65921FEA17FC719500F63767 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 65921FD717FC719500F63767 /* MASCompositeConstraint.m */; };
+		65921FEB17FC719500F63767 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 65921FDA17FC719500F63767 /* MASConstraintMaker.m */; };
+		65921FEC17FC719500F63767 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 65921FDC17FC719500F63767 /* MASLayoutConstraint.m */; };
+		65921FED17FC719500F63767 /* Masonry-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65921FDD17FC719500F63767 /* Masonry-Info.plist */; };
+		65921FEE17FC719500F63767 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 65921FE217FC719500F63767 /* MASViewAttribute.m */; };
+		65921FEF17FC719500F63767 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 65921FE417FC719500F63767 /* MASViewConstraint.m */; };
+		65921FF017FC719500F63767 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65921FE617FC719500F63767 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		65921FF117FC719500F63767 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65921FE817FC719500F63767 /* View+MASAdditions.m */; };
+		65921FF417FD5E5D00F63767 /* LayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 65921FF317FD5E5D00F63767 /* LayoutUtils.m */; };
+		ABC350FD9E74DA66BD559C30 /* SpringsAndStroutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC3507560A79A4852059629 /* SpringsAndStroutsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65921F8E17FC6F3700F63767 /* MVScrollViewAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVScrollViewAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65921F9117FC6F3700F63767 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65921F9317FC6F3700F63767 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65921F9517FC6F3700F63767 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65921F9917FC6F3700F63767 /* MVScrollViewAutoLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVScrollViewAutoLayout-Info.plist"; sourceTree = "<group>"; };
+		65921F9B17FC6F3700F63767 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65921F9D17FC6F3700F63767 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65921F9F17FC6F3700F63767 /* MVScrollViewAutoLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVScrollViewAutoLayout-Prefix.pch"; sourceTree = "<group>"; };
+		65921FA017FC6F3700F63767 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65921FA117FC6F3700F63767 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65921FA417FC6F3800F63767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		65921FA717FC6F3800F63767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		65921FA917FC6F3800F63767 /* AutoLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
+		65921FAA17FC6F3800F63767 /* AutoLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
+		65921FAC17FC6F3800F63767 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65921FB317FC6F3800F63767 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		65921FD617FC719500F63767 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		65921FD717FC719500F63767 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		65921FD817FC719500F63767 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		65921FD917FC719500F63767 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		65921FDA17FC719500F63767 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		65921FDB17FC719500F63767 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		65921FDC17FC719500F63767 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		65921FDD17FC719500F63767 /* Masonry-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		65921FDE17FC719500F63767 /* Masonry-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Masonry-Prefix.pch"; sourceTree = "<group>"; };
+		65921FDF17FC719500F63767 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		65921FE017FC719500F63767 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		65921FE117FC719500F63767 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		65921FE217FC719500F63767 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		65921FE317FC719500F63767 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		65921FE417FC719500F63767 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		65921FE517FC719500F63767 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		65921FE617FC719500F63767 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		65921FE717FC719500F63767 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		65921FE817FC719500F63767 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		65921FE917FC719500F63767 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		65921FF217FD5E5D00F63767 /* LayoutUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutUtils.h; sourceTree = "<group>"; };
+		65921FF317FD5E5D00F63767 /* LayoutUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutUtils.m; sourceTree = "<group>"; };
+		ABC3507560A79A4852059629 /* SpringsAndStroutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringsAndStroutsViewController.m; sourceTree = "<group>"; };
+		ABC35EBEBC81E0FEC45B7325 /* SpringsAndStroutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringsAndStroutsViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65921F8B17FC6F3700F63767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65921F9417FC6F3700F63767 /* CoreGraphics.framework in Frameworks */,
+				65921F9617FC6F3700F63767 /* UIKit.framework in Frameworks */,
+				65921F9217FC6F3700F63767 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65921F8517FC6F3700F63767 = {
+			isa = PBXGroup;
+			children = (
+				65921FD517FC719500F63767 /* Masonry */,
+				65921F9717FC6F3700F63767 /* ScrollViewAutoLayout */,
+				65921F9017FC6F3700F63767 /* Frameworks */,
+				65921F8F17FC6F3700F63767 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65921F8F17FC6F3700F63767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65921F8E17FC6F3700F63767 /* MVScrollViewAutoLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65921F9017FC6F3700F63767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65921F9117FC6F3700F63767 /* Foundation.framework */,
+				65921F9317FC6F3700F63767 /* CoreGraphics.framework */,
+				65921F9517FC6F3700F63767 /* UIKit.framework */,
+				65921FB317FC6F3800F63767 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65921F9717FC6F3700F63767 /* ScrollViewAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				65921FA017FC6F3700F63767 /* AppDelegate.h */,
+				65921FA117FC6F3700F63767 /* AppDelegate.m */,
+				65921FA317FC6F3800F63767 /* Main_iPhone.storyboard */,
+				65921FA617FC6F3800F63767 /* Main_iPad.storyboard */,
+				65921FA917FC6F3800F63767 /* AutoLayoutViewController.h */,
+				65921FAA17FC6F3800F63767 /* AutoLayoutViewController.m */,
+				ABC3507560A79A4852059629 /* SpringsAndStroutsViewController.m */,
+				ABC35EBEBC81E0FEC45B7325 /* SpringsAndStroutsViewController.h */,
+				65921FF217FD5E5D00F63767 /* LayoutUtils.h */,
+				65921FF317FD5E5D00F63767 /* LayoutUtils.m */,
+				65921FAC17FC6F3800F63767 /* Images.xcassets */,
+				65921F9817FC6F3700F63767 /* Supporting Files */,
+			);
+			path = ScrollViewAutoLayout;
+			sourceTree = "<group>";
+		};
+		65921F9817FC6F3700F63767 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65921F9917FC6F3700F63767 /* MVScrollViewAutoLayout-Info.plist */,
+				65921F9A17FC6F3700F63767 /* InfoPlist.strings */,
+				65921F9D17FC6F3700F63767 /* main.m */,
+				65921F9F17FC6F3700F63767 /* MVScrollViewAutoLayout-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65921FD517FC719500F63767 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				65921FD617FC719500F63767 /* MASCompositeConstraint.h */,
+				65921FD717FC719500F63767 /* MASCompositeConstraint.m */,
+				65921FD817FC719500F63767 /* MASConstraint.h */,
+				65921FD917FC719500F63767 /* MASConstraintMaker.h */,
+				65921FDA17FC719500F63767 /* MASConstraintMaker.m */,
+				65921FDB17FC719500F63767 /* MASLayoutConstraint.h */,
+				65921FDC17FC719500F63767 /* MASLayoutConstraint.m */,
+				65921FDD17FC719500F63767 /* Masonry-Info.plist */,
+				65921FDE17FC719500F63767 /* Masonry-Prefix.pch */,
+				65921FDF17FC719500F63767 /* Masonry.h */,
+				65921FE017FC719500F63767 /* MASUtilities.h */,
+				65921FE117FC719500F63767 /* MASViewAttribute.h */,
+				65921FE217FC719500F63767 /* MASViewAttribute.m */,
+				65921FE317FC719500F63767 /* MASViewConstraint.h */,
+				65921FE417FC719500F63767 /* MASViewConstraint.m */,
+				65921FE517FC719500F63767 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				65921FE617FC719500F63767 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				65921FE717FC719500F63767 /* View+MASAdditions.h */,
+				65921FE817FC719500F63767 /* View+MASAdditions.m */,
+				65921FE917FC719500F63767 /* View+MASShorthandAdditions.h */,
+			);
+			name = Masonry;
+			path = ../SnuppsFramework/Masonry/Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65921F8D17FC6F3700F63767 /* MVScrollViewAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65921FC317FC6F3800F63767 /* Build configuration list for PBXNativeTarget "MVScrollViewAutoLayout" */;
+			buildPhases = (
+				65921F8A17FC6F3700F63767 /* Sources */,
+				65921F8B17FC6F3700F63767 /* Frameworks */,
+				65921F8C17FC6F3700F63767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVScrollViewAutoLayout;
+			productName = ScrollViewAutoLayout;
+			productReference = 65921F8E17FC6F3700F63767 /* MVScrollViewAutoLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65921F8617FC6F3700F63767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Snupps;
+			};
+			buildConfigurationList = 65921F8917FC6F3700F63767 /* Build configuration list for PBXProject "MVScrollViewAutoLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65921F8517FC6F3700F63767;
+			productRefGroup = 65921F8F17FC6F3700F63767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65921F8D17FC6F3700F63767 /* MVScrollViewAutoLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65921F8C17FC6F3700F63767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65921FA817FC6F3800F63767 /* Main_iPad.storyboard in Resources */,
+				65921FED17FC719500F63767 /* Masonry-Info.plist in Resources */,
+				65921FAD17FC6F3800F63767 /* Images.xcassets in Resources */,
+				65921FA517FC6F3800F63767 /* Main_iPhone.storyboard in Resources */,
+				65921F9C17FC6F3700F63767 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65921F8A17FC6F3700F63767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65921FF017FC719500F63767 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				65921FEE17FC719500F63767 /* MASViewAttribute.m in Sources */,
+				65921FEF17FC719500F63767 /* MASViewConstraint.m in Sources */,
+				65921FF417FD5E5D00F63767 /* LayoutUtils.m in Sources */,
+				65921FEC17FC719500F63767 /* MASLayoutConstraint.m in Sources */,
+				65921FF117FC719500F63767 /* View+MASAdditions.m in Sources */,
+				65921FAB17FC6F3800F63767 /* AutoLayoutViewController.m in Sources */,
+				65921FEA17FC719500F63767 /* MASCompositeConstraint.m in Sources */,
+				65921FEB17FC719500F63767 /* MASConstraintMaker.m in Sources */,
+				65921FA217FC6F3700F63767 /* AppDelegate.m in Sources */,
+				65921F9E17FC6F3700F63767 /* main.m in Sources */,
+				ABC350FD9E74DA66BD559C30 /* SpringsAndStroutsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65921F9A17FC6F3700F63767 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65921F9B17FC6F3700F63767 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65921FA317FC6F3800F63767 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65921FA417FC6F3800F63767 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		65921FA617FC6F3800F63767 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65921FA717FC6F3800F63767 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65921FC117FC6F3800F63767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65921FC217FC6F3800F63767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65921FC417FC6F3800F63767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollViewAutoLayout/MVScrollViewAutoLayout-Prefix.pch";
+				INFOPLIST_FILE = "ScrollViewAutoLayout/MVScrollViewAutoLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = MVScrollViewAutoLayout;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65921FC517FC6F3800F63767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollViewAutoLayout/MVScrollViewAutoLayout-Prefix.pch";
+				INFOPLIST_FILE = "ScrollViewAutoLayout/MVScrollViewAutoLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = MVScrollViewAutoLayout;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65921F8917FC6F3700F63767 /* Build configuration list for PBXProject "MVScrollViewAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65921FC117FC6F3800F63767 /* Debug */,
+				65921FC217FC6F3800F63767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65921FC317FC6F3800F63767 /* Build configuration list for PBXNativeTarget "MVScrollViewAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65921FC417FC6F3800F63767 /* Debug */,
+				65921FC517FC6F3800F63767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65921F8617FC6F3700F63767 /* Project object */;
+}
