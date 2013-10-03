@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F267C329-AA12-4445-990F-38ABC622F004</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MVScrollViewAutoLayout</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>068DA7F1-2182-40E2-B82C-5700CECD71A3</key>
+		<string>https://github.com/bizz84/MVScrollViewAutoLayout.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MVScrollViewAutoLayout.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>068DA7F1-2182-40E2-B82C-5700CECD71A3</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bizz84/MVScrollViewAutoLayout.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>068DA7F1-2182-40E2-B82C-5700CECD71A3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>068DA7F1-2182-40E2-B82C-5700CECD71A3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MVScrollViewAutoLayout</string>
+		</dict>
+	</array>
+</dict>
+</plist>

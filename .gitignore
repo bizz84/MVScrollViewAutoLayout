@@ -33,4 +33,4 @@ Podfile.lock
 
 # emacs
 ###############################
-.gitignore~
+*~

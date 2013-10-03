@@ -2,10 +2,11 @@
 MVScrollViewAutoLayout - Andrea Bizzotto <bizz84@gmail.com>
 
 -------------------------------------------------------
+![Auto-Layout preview](https://github.com/bizz84/MVScrollViewAutoLayout/blob/master/auto-layout-scroll-view-preview.png "Auto-Layout preview")
 
 Example iOS project showing how Auto-Layout can calculate the contentSize of a UIScrollView for you based on the constraints of the scroll view’s subviews.
 
-This example is based on [this tutorial](http://www.apeth.com/iOSBook/ch20.html), which uses Auto-Layout directly with the Apple's [Visual Layout Language](https://developer.apple.com/library/mac/documentation/userexperience/conceptual/AutolayoutPG/Articles/formatLanguage.html).
+This example is based on [this tutorial](http://www.apeth.com/iOSBook/ch20.html), which uses Auto-Layout directly with Apple's [Visual Layout Language](https://developer.apple.com/library/mac/documentation/userexperience/conceptual/AutolayoutPG/Articles/formatLanguage.html).
 
 ## USAGE
 
