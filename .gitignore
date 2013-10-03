@@ -24,3 +24,13 @@ xcuserdata/
 *.iws
 workspace.xml
 tasks.xml
+
+# cocoapods
+###############################
+Pods/
+Podfile.lock
+
+
+# emacs
+###############################
+.gitignore~
