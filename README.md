@@ -1,7 +1,5 @@
-
-MVScrollViewAutoLayout - Andrea Bizzotto <bizz84@gmail.com>
-
--------------------------------------------------------
+MVScrollViewAutoLayout
+=======================================================
 
 Example iOS project showing how Auto-Layout can calculate the contentSize of a UIScrollView for you based on the constraints of the scroll view’s subviews.
 
@@ -9,18 +7,18 @@ This example is based on [this tutorial](http://www.apeth.com/iOSBook/ch20.html)
 
 ![Auto-Layout preview](https://github.com/bizz84/MVScrollViewAutoLayout/raw/master/auto-layout-scroll-view-preview.png "Auto-Layout preview")
 
-## USAGE
+## Usage
 
 This project uses the iOS Masonry library to manage the Auto-Layout constraints. Before running the project, run the following:
 
 `pod install`
 
-## CREDITS
+## Credits
 
 * [cloudkite / Masonry](https://github.com/cloudkite/Masonry)
 * [Programming iOS 6, by Matt Neuburg](http://shop.oreilly.com/product/0636920029717.do)
 
-## LICENSE
+## License
 
 Copyright (c) 2013 Andrea Bizzotto bizz84@gmail.com
 
